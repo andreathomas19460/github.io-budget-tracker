@@ -12,11 +12,9 @@ app.use(express.json());
 
 app.use(express.static(`public`));
 
-mongoose.connect(process.env.MONGODB_URI || `mongodb://localhost/budget`, {
-  useNewUrlParser: true,
-  useFindAndModify: false,
-  useUnifiedTopology: true
-});
+const MONGODB_URI = process.env.MONGODB_URI || `mongodb://localhost/budget`;
+
+mongoose.connect(MONGODB_URI);
 
 // routes
 app.use(require(`./routes/api.js`));

@@ -1,7 +1,7 @@
 {
   "name": "budget-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "The puerpose of this project is to provide a budget tracker for users to log personal expense transactions.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,5 +13,13 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.9.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreathomas19460/github.io-budget-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andreathomas19460/github.io-budget-tracker/issues"
+  },
+  "homepage": "https://github.com/andreathomas19460/github.io-budget-tracker#readme"
 }
